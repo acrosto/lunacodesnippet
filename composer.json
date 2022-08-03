@@ -1,0 +1,23 @@
+{
+    "name": "acrosto/lunacodesnippet",
+    "type": "acrosto-drupal-module",
+    "description": "CodeSnippet plugin for CKEditor.",
+    "keywords": [
+        "Drupal",
+        "LunaDXP"
+    ],
+    "license": "GPL-2.0+",
+    "homepage": "https://lunadxp.com",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Luna",
+            "homepage": "https://lunadxp.com/",
+            "email": "lunadxp@acrosto.com"
+        }
+    ],
+    "require": {
+        "drupal-ckeditor-libraries-group/codesnippet": "4.19.0"
+    },
+    "prefer-stable": true
+}
