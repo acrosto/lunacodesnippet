@@ -16,8 +16,17 @@
             "email": "lunadxp@acrosto.com"
         }
     ],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://packages.drupal.org/8"
+        },
+        {
+            "type": "composer",
+            "url": "https://acrosto.repo.repman.io"
+        }
+    ],
     "require": {
         "drupal-ckeditor-libraries-group/codesnippet": "4.19.0"
-    },
-    "prefer-stable": true
+    }
 }
