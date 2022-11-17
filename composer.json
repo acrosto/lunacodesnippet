@@ -27,6 +27,6 @@
         }
     ],
     "require": {
-        "drupal-ckeditor-libraries-group/codesnippet": "4.19.0"
+        "drupal/core": "^9.0 || ^10"
     }
 }

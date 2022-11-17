@@ -11,7 +11,7 @@ use Drupal\filter\Plugin\FilterBase;
  * @Filter(
  *   id = "filter_codesnippet",
  *   title = @Translation("Process CodeSnippet elements"),
- *   type = Drupal\filter\Plugin\FilterInterface::TYPE_MARKUP_LANGUAGE
+ *   type = Drupal\filter\Plugin\FilterInterface::TYPE_TRANSFORM_REVERSIBLE
  * )
  */
 class CodeSnippet extends FilterBase {
@@ -30,7 +30,6 @@ class CodeSnippet extends FilterBase {
     $result->addAttachments([
       'library' => [
         'lunacodesnippet/highlightjs',
-        'lunacodesnippet/style.dark',
       ],
     ]);
 

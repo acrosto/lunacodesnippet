@@ -1,22 +1,8 @@
-admin:
-  version: 0.0.1
-  js:
-    js/codesnippet.admin.js: { }
-  dependencies:
-    - core/jquery
-    - core/drupal
-    - core/jquery.once
-    - core/drupal.vertical-tabs
-    - core/drupalSettings
-
 highlightjs:
-  version: 0.0.1
+  version: 0.0.2
   js:
-    /libraries/codesnippet/lib/highlight/highlight.pack.js: { minified: true }
-    js/codesnippet.js: { }
-
-style.dark:
-  version: 0.0.1
+    assets/js/highlight.pack.js: { minified: true }
+    assets/js/codesnippet.js: { minified: false }
   css:
     theme:
-      /libraries/codesnippet/lib/highlight/styles/dark.css: {}
+      assets/css/dark.css: { minified: false }

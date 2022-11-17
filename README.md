@@ -1,14 +1,3 @@
-## Luna CodeSnippet
+## Luna Syntax highlighting
 
-This is the amended version of https://www.drupal.org/project/codesnippet
-
-The differences are:
-
-- The style is hardcoded as `dark`;
-- The libraries are attached only when a codesnippet is actually available instead of every page;
-- Removed JQuery dependency on FE as it's not needed at all;
-
-
-### Notes
-
-Follow https://www.drupal.org/project/codesnippet/issues/3269387 for CKEditor 5 upgrade progress
+Provides a Drupal CKEditor5 filter to include syntax highlighter assets when code tag is detected block is detected
