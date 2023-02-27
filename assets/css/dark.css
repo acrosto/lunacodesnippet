@@ -1,7 +1,5 @@
 ﻿/*
-
 Dark style from softwaremaniacs.org (c) Ivan Sagalaev <Maniac@SoftwareManiacs.Org>
-
 */
 
 .hljs-keyword,
@@ -66,27 +64,6 @@ Dark style from softwaremaniacs.org (c) Ivan Sagalaev <Maniac@SoftwareManiacs.Or
 .apache .hljs-sqbracket,
 .tex .hljs-formula {
   color: #777;
-}
-
-.hljs-keyword,
-.hljs-literal,
-.hljs-title,
-.css .hljs-id,
-.hljs-phpdoc,
-.haskell .hljs-type,
-.vbscript .hljs-built_in,
-.sql .hljs-aggregate,
-.rsl .hljs-built_in,
-.smalltalk .hljs-class,
-.diff .hljs-header,
-.hljs-chunk,
-.hljs-winutils,
-.bash .hljs-variable,
-.apache .hljs-tag,
-.tex .hljs-special,
-.hljs-request,
-.hljs-status {
-  font-weight: bold;
 }
 
 .coffeescript .javascript,
