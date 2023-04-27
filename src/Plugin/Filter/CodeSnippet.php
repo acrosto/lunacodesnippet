@@ -29,7 +29,7 @@ class CodeSnippet extends FilterBase {
     // Add needed JS.
     $result->addAttachments([
       'library' => [
-        'lunacodesnippet/highlightjs',
+        'lunacodesnippet/prismjs',
       ],
     ]);
 
