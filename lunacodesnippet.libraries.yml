@@ -1,14 +1,6 @@
-highlightjs:
-  version: 0.0.2
-  js:
-    assets/js/highlight.pack.js: { minified: true }
-    assets/js/codesnippet.js: { minified: false }
-  css:
-    theme:
-      assets/css/dark.css: { minified: false }
-
+# https://prismjs.com/download.html#themes=prism-tomorrow&languages=markup+css+clike+javascript+bash+diff+markup-templating+php+python+scss+sql+twig
 prismjs:
-  version: 0.0.2
+  version: 0.0.3
   js:
     assets/js/prism.js: { minified: true }
   css:

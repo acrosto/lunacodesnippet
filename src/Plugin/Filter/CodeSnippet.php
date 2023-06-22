@@ -19,14 +19,14 @@ class CodeSnippet extends FilterBase {
   /**
    * {@inheritdoc}
    */
-  public function process($text, $langcode) {
+  public function process($text, $langcode): FilterProcessResult {
 
     $result = new FilterProcessResult($text);
     if (stristr($text, '<code') === FALSE || stristr($text, 'language-') === FALSE) {
       return $result;
     }
 
-    // Add needed JS.
+    // Add needed assets.
     $result->addAttachments([
       'library' => [
         'lunacodesnippet/prismjs',
