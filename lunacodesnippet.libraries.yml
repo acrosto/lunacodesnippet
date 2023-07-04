@@ -1,6 +1,6 @@
-# https://prismjs.com/download.html#themes=prism-tomorrow&languages=markup+css+clike+javascript+bash+diff+markup-templating+php+python+scss+sql+twig
+# https://prismjs.com/download.html#themes=prism-tomorrow&languages=markup+css+clike+javascript+bash+diff+markup-templating+php+python+scss+sql+twig+yaml
 prismjs:
-  version: 0.0.3
+  version: 0.0.4
   js:
     assets/js/prism.js: { minified: true }
   css:
