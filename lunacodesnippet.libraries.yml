@@ -2,7 +2,11 @@
 prismjs:
   version: 0.0.4
   js:
-    assets/js/prism.js: { minified: true }
+    assets/js/prism.js: {
+      minified: true,
+      attributes: { data-turbo-eval: false, data-turbolinks-eval: false }
+    }
+
   css:
     theme:
       assets/css/prism.css: { minified: true }
