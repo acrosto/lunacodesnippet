@@ -2,18 +2,17 @@
 
 namespace Drupal\lunacodesnippet\Plugin\Filter;
 
+use Drupal\Core\StringTranslation\TranslatableMarkup;
 use Drupal\filter\FilterProcessResult;
 use Drupal\filter\Plugin\FilterBase;
+use Drupal\filter\Plugin\FilterInterface;
+use Drupal\filter\Attribute\Filter;
 
-/**
- * Provides a filter to attach needed assets for codesnippet.
- *
- * @Filter(
- *   id = "filter_codesnippet",
- *   title = @Translation("Process CodeSnippet elements"),
- *   type = Drupal\filter\Plugin\FilterInterface::TYPE_TRANSFORM_REVERSIBLE
- * )
- */
+#[Filter(
+  id: 'filter_codesnippet',
+  title: new TranslatableMarkup('Process CodeSnippet elements'),
+  type: FilterInterface::TYPE_TRANSFORM_REVERSIBLE,
+)]
 class CodeSnippet extends FilterBase {
 
   /**
